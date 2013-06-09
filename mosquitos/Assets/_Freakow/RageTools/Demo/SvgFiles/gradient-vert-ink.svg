@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12cm"
+   height="4cm"
+   viewBox="0 0 1200 400"
+   version="1.1"
+   id="svg2985"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="rect-single.svg">
+  <metadata
+     id="metadata2995">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2993">
+    <linearGradient
+       id="linearGradient3771">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:1;"
+         offset="0"
+         id="stop3773" />
+      <stop
+         style="stop-color:#ffff00;stop-opacity:0;"
+         offset="1"
+         id="stop3775" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3771"
+       id="linearGradient3777"
+       x1="585.71991"
+       y1="93.879463"
+       x2="585.76038"
+       y2="291.19141"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="881"
+     id="namedview2991"
+     showgrid="false"
+     inkscape:zoom="3.1663719"
+     inkscape:cx="161.11994"
+     inkscape:cy="70.866142"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2985" />
+  <desc
+     id="desc2987">Example rect01 - rectangle with sharp corners</desc>
+  <rect
+     x="400"
+     y="100"
+     width="400"
+     height="200"
+     id="rect2989"
+     stroke-width="10"
+     stroke="navy"
+     fill="yellow"
+     style="fill-opacity:1;fill:url(#linearGradient3777);stroke-width:9.99913362000000030;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>

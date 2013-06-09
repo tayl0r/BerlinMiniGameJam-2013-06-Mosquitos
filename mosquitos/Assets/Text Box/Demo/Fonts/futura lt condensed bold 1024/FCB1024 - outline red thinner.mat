@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FCB1024 - outline red thinner
+  m_Shader: {fileID: 4800000, guid: dd4471d7392ca40dc8975f591c285fc3, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 106facadc0d70470b94bd341b4ffae37, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _EdgeMin
+        second: .449999988
+      data:
+        first:
+          name: _EdgeMax
+        second: .550000012
+      data:
+        first:
+          name: _OutlineMin
+        second: .219999999
+      data:
+        first:
+          name: _OutlineMax
+        second: .319999993
+      data:
+        first:
+          name: _Alpha
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: .811764717, g: .243137255, b: 0, a: 1}

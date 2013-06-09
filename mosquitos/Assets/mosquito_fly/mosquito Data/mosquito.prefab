@@ -1,0 +1,712 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: mosquito
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: mosquito_fly0003
+    boundsData:
+    - {x: -2.50000191, y: 8.00000191, z: 0}
+    - {x: 115, y: 108, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -60, y: -45.9999962, z: 0}
+    - {x: 54.9999962, y: -45.9999962, z: 0}
+    - {x: -60, y: 62, z: 0}
+    - {x: 54.9999962, y: 62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .886719704, y: .400391608}
+    - {x: .886719704, y: .512694359}
+    - {x: .992186546, y: .400391608}
+    - {x: .992186546, y: .512694359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3da32b4e261be4ef7a0bd197e3e83a02
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0004
+    boundsData:
+    - {x: -10.0000019, y: 14, z: 0}
+    - {x: 100, y: 118, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -60, y: -45, z: 0}
+    - {x: 39.9999962, y: -45, z: 0}
+    - {x: -60, y: 73, z: 0}
+    - {x: 39.9999962, y: 73, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .766602516, y: .510743141}
+    - {x: .766602516, y: .608397484}
+    - {x: .881834984, y: .510743141}
+    - {x: .881834984, y: .608397484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 45643b8fca52549d7bc3ced1541650dd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0001
+    boundsData:
+    - {x: -10.0000019, y: 12.4999981, z: 0}
+    - {x: 102, y: 119, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -47.0000038, z: 0}
+    - {x: 40.9999962, y: -47.0000038, z: 0}
+    - {x: -61, y: 72, z: 0}
+    - {x: 40.9999962, y: 72, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .251954108, y: .405274421}
+    - {x: .251954108, y: .504881859}
+    - {x: .368163079, y: .405274421}
+    - {x: .368163079, y: .504881859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5498b70f1f9a940baa7f3679fff0a2c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0012
+    boundsData:
+    - {x: -3.00000191, y: 7.50000191, z: 0}
+    - {x: 116, y: 107, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -45.9999962, z: 0}
+    - {x: 54.9999962, y: -45.9999962, z: 0}
+    - {x: -61, y: 61, z: 0}
+    - {x: 54.9999962, y: 61, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .406250983, y: .308594733}
+    - {x: .519530296, y: .308594733}
+    - {x: .406250983, y: .413084954}
+    - {x: .519530296, y: .413084954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5e720555585314b8398d23dba3227877
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0011
+    boundsData:
+    - {x: -10.0000019, y: 14.0000019, z: 0}
+    - {x: 100, y: 120, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -60, y: -45.9999962, z: 0}
+    - {x: 39.9999962, y: -45.9999962, z: 0}
+    - {x: -60, y: 74, z: 0}
+    - {x: 39.9999962, y: 74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .523438454, y: .411133796}
+    - {x: .523438454, y: .508788109}
+    - {x: .640624046, y: .411133796}
+    - {x: .640624046, y: .508788109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5febf19e73616437188d248a8d8541c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0007
+    boundsData:
+    - {x: -9.50000191, y: 13, z: 0}
+    - {x: 99, y: 122, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -59, y: -48, z: 0}
+    - {x: 39.9999962, y: -48, z: 0}
+    - {x: -59, y: 74, z: 0}
+    - {x: 39.9999962, y: 74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .644532204, y: .408204108}
+    - {x: .644532204, y: .504881859}
+    - {x: .763670921, y: .408204108}
+    - {x: .763670921, y: .504881859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 71d06a9ddb7aa4d6dbe1cb2028308742
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0005
+    boundsData:
+    - {x: -10, y: 14.5000019, z: 0}
+    - {x: 98, y: 121, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -59, y: -45.9999962, z: 0}
+    - {x: 39, y: -45.9999962, z: 0}
+    - {x: -59, y: 75, z: 0}
+    - {x: 39, y: 75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .644532204, y: .508790016}
+    - {x: .644532204, y: .604491234}
+    - {x: .762694359, y: .508790016}
+    - {x: .762694359, y: .604491234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9d36f16a2b5184fcd8db4eba90015608
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0010
+    boundsData:
+    - {x: -10.0000019, y: 14, z: 0}
+    - {x: 100, y: 118, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -60, y: -45, z: 0}
+    - {x: 39.9999962, y: -45, z: 0}
+    - {x: -60, y: 73, z: 0}
+    - {x: 39.9999962, y: 73, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .885743141, y: .516602516}
+    - {x: .983397484, y: .516602516}
+    - {x: .885743141, y: .631834984}
+    - {x: .983397484, y: .631834984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: a1a5bc292461e4be481528f3f54aec44
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0002
+    boundsData:
+    - {x: -10.5000019, y: 14.0000019, z: 0}
+    - {x: 101, y: 120, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -61, y: -45.9999962, z: 0}
+    - {x: 39.9999962, y: -45.9999962, z: 0}
+    - {x: -61, y: 74, z: 0}
+    - {x: 39.9999962, y: 74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .523438454, y: .308594733}
+    - {x: .523438454, y: .407225579}
+    - {x: .640624046, y: .308594733}
+    - {x: .640624046, y: .407225579}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: aecc9d4a0d7244807af21acd2dfaa3d7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0008
+    boundsData:
+    - {x: -10.5, y: 13.5, z: 0}
+    - {x: 97, y: 123, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -59, y: -48, z: 0}
+    - {x: 38, y: -48, z: 0}
+    - {x: -59, y: 75, z: 0}
+    - {x: 38, y: 75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .819336891, y: .164063483}
+    - {x: .914061546, y: .164063483}
+    - {x: .819336891, y: .284178704}
+    - {x: .914061546, y: .284178704}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: bc46fe20229254ed1b2af928868c7537
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0006
+    boundsData:
+    - {x: -2.00000191, y: 7.5, z: 0}
+    - {x: 114, y: 111, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -59, y: -48, z: 0}
+    - {x: 54.9999962, y: -48, z: 0}
+    - {x: -59, y: 63, z: 0}
+    - {x: 54.9999962, y: 63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .819336891, y: .288086921}
+    - {x: .930663109, y: .288086921}
+    - {x: .819336891, y: .396483392}
+    - {x: .930663109, y: .396483392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: bc78c852953444e6eae9df47f5347d1a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_fly0009
+    boundsData:
+    - {x: -2.00000191, y: 7.49999809, z: 0}
+    - {x: 114, y: 109, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -59, y: -47.0000038, z: 0}
+    - {x: 54.9999962, y: -47.0000038, z: 0}
+    - {x: -59, y: 62, z: 0}
+    - {x: 54.9999962, y: 62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .771485329, y: .400391608}
+    - {x: .882811546, y: .400391608}
+    - {x: .771485329, y: .506834984}
+    - {x: .882811546, y: .506834984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: ce8a71a9d241f49a2b5480ef68ca7995
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_dead
+    boundsData:
+    - {x: -.500003815, y: -7, z: 0}
+    - {x: 112.999992, y: 110, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -57, y: -62, z: 0}
+    - {x: 55.9999924, y: -62, z: 0}
+    - {x: -57, y: 48, z: 0}
+    - {x: 55.9999924, y: 48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .657227516, y: .296875983}
+    - {x: .767577171, y: .296875983}
+    - {x: .657227516, y: .404295892}
+    - {x: .767577171, y: .404295892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 03f614ff07dd8485c8d8592b2647e126
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: hand_ed
+    boundsData:
+    - {x: 45, y: 43, z: 0}
+    - {x: 934, y: 938, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1024, y: 1024, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -422, y: -426, z: 0}
+    - {x: -260, y: -426, z: 0}
+    - {x: -422, y: -260, z: 0}
+    - {x: -260, y: -260, z: 0}
+    - {x: -412, y: -260, z: 0}
+    - {x: -260, y: -260, z: 0}
+    - {x: -412, y: -8, z: 0}
+    - {x: -260, y: -8, z: 0}
+    - {x: -276, y: -8, z: 0}
+    - {x: -260, y: -8, z: 0}
+    - {x: -276, y: 10, z: 0}
+    - {x: -260, y: 10, z: 0}
+    - {x: -260, y: -422, z: 0}
+    - {x: -128, y: -422, z: 0}
+    - {x: -260, y: -260, z: 0}
+    - {x: -128, y: -260, z: 0}
+    - {x: -260, y: -260, z: 0}
+    - {x: -8, y: -260, z: 0}
+    - {x: -260, y: -8, z: 0}
+    - {x: -8, y: -8, z: 0}
+    - {x: -260, y: -8, z: 0}
+    - {x: -8, y: -8, z: 0}
+    - {x: -260, y: 244, z: 0}
+    - {x: -8, y: 244, z: 0}
+    - {x: -40, y: 244, z: 0}
+    - {x: -8, y: 244, z: 0}
+    - {x: -40, y: 312, z: 0}
+    - {x: -8, y: 312, z: 0}
+    - {x: -8, y: -162, z: 0}
+    - {x: 147, y: -162, z: 0}
+    - {x: -8, y: -8, z: 0}
+    - {x: 147, y: -8, z: 0}
+    - {x: -8, y: -8, z: 0}
+    - {x: 244, y: -8, z: 0}
+    - {x: -8, y: 244, z: 0}
+    - {x: 244, y: 244, z: 0}
+    - {x: -8, y: 244, z: 0}
+    - {x: 244, y: 244, z: 0}
+    - {x: -8, y: 496, z: 0}
+    - {x: 244, y: 496, z: 0}
+    - {x: 100, y: 496, z: 0}
+    - {x: 244, y: 496, z: 0}
+    - {x: 100, y: 512, z: 0}
+    - {x: 244, y: 512, z: 0}
+    - {x: 244, y: 90, z: 0}
+    - {x: 397, y: 90, z: 0}
+    - {x: 244, y: 244, z: 0}
+    - {x: 397, y: 244, z: 0}
+    - {x: 244, y: 244, z: 0}
+    - {x: 496, y: 244, z: 0}
+    - {x: 244, y: 496, z: 0}
+    - {x: 496, y: 496, z: 0}
+    - {x: 244, y: 496, z: 0}
+    - {x: 496, y: 496, z: 0}
+    - {x: 244, y: 512, z: 0}
+    - {x: 496, y: 512, z: 0}
+    - {x: 496, y: 303, z: 0}
+    - {x: 512, y: 303, z: 0}
+    - {x: 496, y: 496, z: 0}
+    - {x: 512, y: 496, z: 0}
+    - {x: 496, y: 496, z: 0}
+    - {x: 512, y: 496, z: 0}
+    - {x: 496, y: 512, z: 0}
+    - {x: 512, y: 512, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .751954079, y: .00195410149}
+    - {x: .751954079, y: .160155267}
+    - {x: .914061546, y: .00195410149}
+    - {x: .914061546, y: .160155267}
+    - {x: .501954079, y: .00195410149}
+    - {x: .501954079, y: .150389642}
+    - {x: .748045921, y: .00195410149}
+    - {x: .748045921, y: .150389642}
+    - {x: .976563454, y: .00195410149}
+    - {x: .976563454, y: .017577149}
+    - {x: .994139671, y: .00195410149}
+    - {x: .994139671, y: .017577149}
+    - {x: .657227516, y: .164063483}
+    - {x: .657227516, y: .292967767}
+    - {x: .815428734, y: .164063483}
+    - {x: .815428734, y: .292967767}
+    - {x: .00195410149, y: .00195410149}
+    - {x: .248045892, y: .00195410149}
+    - {x: .00195410149, y: .248045892}
+    - {x: .248045892, y: .248045892}
+    - {x: .00195410149, y: .251954108}
+    - {x: .248045892, y: .251954108}
+    - {x: .00195410149, y: .498045892}
+    - {x: .248045892, y: .498045892}
+    - {x: .957032204, y: .146485358}
+    - {x: .988280296, y: .146485358}
+    - {x: .957032204, y: .212889642}
+    - {x: .988280296, y: .212889642}
+    - {x: .501954079, y: .154297858}
+    - {x: .653319359, y: .154297858}
+    - {x: .501954079, y: .304686517}
+    - {x: .653319359, y: .304686517}
+    - {x: .00195410149, y: .501954079}
+    - {x: .248045892, y: .501954079}
+    - {x: .00195410149, y: .748045921}
+    - {x: .248045892, y: .748045921}
+    - {x: .00195410149, y: .751954079}
+    - {x: .248045892, y: .751954079}
+    - {x: .00195410149, y: .998045921}
+    - {x: .248045892, y: .998045921}
+    - {x: .957032204, y: .00195410149}
+    - {x: .957032204, y: .142577142}
+    - {x: .972655296, y: .00195410149}
+    - {x: .972655296, y: .142577142}
+    - {x: .251954108, y: .251954108}
+    - {x: .251954108, y: .401366204}
+    - {x: .402342767, y: .251954108}
+    - {x: .402342767, y: .401366204}
+    - {x: .251954108, y: .00195410149}
+    - {x: .498045892, y: .00195410149}
+    - {x: .251954108, y: .248045892}
+    - {x: .498045892, y: .248045892}
+    - {x: .917969704, y: .00195410149}
+    - {x: .917969704, y: .248045892}
+    - {x: .933592796, y: .00195410149}
+    - {x: .933592796, y: .248045892}
+    - {x: .937500954, y: .00195410149}
+    - {x: .953124046, y: .00195410149}
+    - {x: .937500954, y: .190428704}
+    - {x: .953124046, y: .190428704}
+    - {x: .976563454, y: .021485351}
+    - {x: .992186546, y: .021485351}
+    - {x: .976563454, y: .037108399}
+    - {x: .992186546, y: .037108399}
+    indices: 000000000300000001000000020000000300000000000000040000000700000005000000060000000700000004000000080000000b000000090000000a0000000b000000080000000c0000000f0000000d0000000e0000000f0000000c000000100000001300000011000000120000001300000010000000140000001700000015000000160000001700000014000000180000001b000000190000001a0000001b000000180000001c0000001f0000001d0000001e0000001f0000001c000000200000002300000021000000220000002300000020000000240000002700000025000000260000002700000024000000280000002b000000290000002a0000002b000000280000002c0000002f0000002d0000002e0000002f0000002c000000300000003300000031000000320000003300000030000000340000003700000035000000360000003700000034000000380000003b000000390000003a0000003b000000380000003c0000003f0000003d0000003e0000003f0000003c000000
+    material: {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4fcbeb3a2b9b34a62832b70494c6fcf0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: adda8b14dfbf9432d8171348f18c170e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 38e2d897334514a53bf69bea5eb24c1f, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 98958f8b5c5f04482932aa7eb61fd274
+  spriteCollectionName: mosquito
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 359368113
+  dataGuid: c94c1c112d20b4067b3017dc3779fa92
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

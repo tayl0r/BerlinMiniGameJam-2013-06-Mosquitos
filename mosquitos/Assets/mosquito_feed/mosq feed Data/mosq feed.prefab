@@ -1,0 +1,1850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: mosq feed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: mosquito_suck0014
+    boundsData:
+    - {x: 5.99999619, y: 6.5, z: 0}
+    - {x: 94, y: 65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -41.0000038, y: -26, z: 0}
+    - {x: 52.9999962, y: -26, z: 0}
+    - {x: -41.0000038, y: 39, z: 0}
+    - {x: 52.9999962, y: 39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .451173842, y: .230469733}
+    - {x: .634763658, y: .230469733}
+    - {x: .451173842, y: .293944329}
+    - {x: .634763658, y: .293944329}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 033c9c19d5eb648dca3026af23f78ce9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0005
+    boundsData:
+    - {x: 15.5000029, y: 14.4999981, z: 0}
+    - {x: 85, y: 77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26.9999981, y: -24, z: 0}
+    - {x: 58.0000038, y: -24, z: 0}
+    - {x: -26.9999981, y: 52.9999962, z: 0}
+    - {x: 58.0000038, y: 52.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .112305664}
+    - {x: .169919923, y: .112305664}
+    - {x: .00390820298, y: .187499017}
+    - {x: .169919923, y: .187499017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 04c8243e75f954de0a513f5635f9a69b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0046
+    boundsData:
+    - {x: 23.0000038, y: 39, z: 0}
+    - {x: 92.0000076, y: 122, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23.0000019, y: -22.0000038, z: 0}
+    - {x: 69.0000076, y: -22.0000038, z: 0}
+    - {x: -23.0000019, y: 100, z: 0}
+    - {x: 69.0000076, y: 100, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .480470717, y: .107422851}
+    - {x: .660154283, y: .107422851}
+    - {x: .480470717, y: .226561517}
+    - {x: .660154283, y: .226561517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0d3b9510260424d3385bad6fe28b7a5e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0019
+    boundsData:
+    - {x: 5.99999619, y: 4.50000191, z: 0}
+    - {x: 99.9999924, y: 57.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 55.9999924, y: -24, z: 0}
+    - {x: -44, y: 33.0000038, z: 0}
+    - {x: 55.9999924, y: 33.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .378908217, y: .697266579}
+    - {x: .378908217, y: .794920921}
+    - {x: .490232408, y: .697266579}
+    - {x: .490232408, y: .794920921}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 11bf3c36e74474b20a4b3b290feb7060
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0004
+    boundsData:
+    - {x: 23.0000038, y: 39, z: 0}
+    - {x: 92.0000076, y: 122, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23.0000019, y: -22.0000038, z: 0}
+    - {x: 69.0000076, y: -22.0000038, z: 0}
+    - {x: -23.0000019, y: 100, z: 0}
+    - {x: 69.0000076, y: 100, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .667970717, y: .191407233}
+    - {x: .667970717, y: .281249017}
+    - {x: .906248033, y: .191407233}
+    - {x: .906248033, y: .281249017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 11c08f4f6815d4519afe496a709fe25a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0034
+    boundsData:
+    - {x: 5.49999809, y: 6, z: 0}
+    - {x: 97, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -43, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .351564467, y: .112305664}
+    - {x: .351564467, y: .207030267}
+    - {x: .472654283, y: .112305664}
+    - {x: .472654283, y: .207030267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 153fe0c6b717a4d3f937298e9cc0ba6d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0026
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 38, z: 0}
+    - {x: 53.9999962, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .185548827, y: .191407233}
+    - {x: .185548827, y: .285155267}
+    - {x: .310544908, y: .191407233}
+    - {x: .310544908, y: .285155267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 284a6ac7014db4085bfa0c9df890ee2f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0048
+    boundsData:
+    - {x: -1, y: 22.5000038, z: 0}
+    - {x: 104, y: 121.000008, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -53, y: -38, z: 0}
+    - {x: 51, y: -38, z: 0}
+    - {x: -53, y: 83.0000076, z: 0}
+    - {x: 51, y: 83.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .480470717, y: .00195410149}
+    - {x: .480470717, y: .103514649}
+    - {x: .716794908, y: .00195410149}
+    - {x: .716794908, y: .103514649}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2aa8134bd195546cfa78d81a763dcfec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0021
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 98, y: 61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 54.9999962, y: -25, z: 0}
+    - {x: -43, y: 36, z: 0}
+    - {x: 54.9999962, y: 36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .833986342, y: .380860358}
+    - {x: .833986342, y: .476561517}
+    - {x: .953123033, y: .380860358}
+    - {x: .953123033, y: .476561517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 398f5eeb20d8444b8a50a958b4421c8b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0040
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 97, y: 60.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -43, y: 35.0000038, z: 0}
+    - {x: 53.9999962, y: 35.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .132814452, y: .582032204}
+    - {x: .132814452, y: .676756859}
+    - {x: .249998048, y: .582032204}
+    - {x: .249998048, y: .676756859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3cb67584ca2bd405183916dafe9d3e4c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0033
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 98, y: 61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 54.9999962, y: -25, z: 0}
+    - {x: -43, y: 36, z: 0}
+    - {x: 54.9999962, y: 36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .400392592, y: .367188483}
+    - {x: .591794908, y: .367188483}
+    - {x: .400392592, y: .426756829}
+    - {x: .591794908, y: .426756829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3da3fb90ece3742ddb776a8251641f84
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0010
+    boundsData:
+    - {x: 5.99999809, y: 5.50000191, z: 0}
+    - {x: 98, y: 59.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -43, y: 35.0000038, z: 0}
+    - {x: 54.9999962, y: 35.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .519533217, y: .545899391}
+    - {x: .710935533, y: .545899391}
+    - {x: .519533217, y: .603514671}
+    - {x: .710935533, y: .603514671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 41a52780041524daf8ef78649b45b52b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0018
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 99, y: 58.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -44, y: 34.0000038, z: 0}
+    - {x: 54.9999962, y: 34.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .388673842, y: .596680641}
+    - {x: .388673842, y: .693358421}
+    - {x: .501951158, y: .596680641}
+    - {x: .501951158, y: .693358421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 44e0556243fa34c039d5e434aafdd0f2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0015
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 38, z: 0}
+    - {x: 53.9999962, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .318361342, y: .210938483}
+    - {x: .318361342, y: .304686517}
+    - {x: .443357408, y: .210938483}
+    - {x: .443357408, y: .304686517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 50d2a3b8cd9004ccb980f149e7074b19
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0011
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 98, y: 61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 54.9999962, y: -25, z: 0}
+    - {x: -43, y: 36, z: 0}
+    - {x: 54.9999962, y: 36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .267580092, y: .406250983}
+    - {x: .267580092, y: .501952171}
+    - {x: .386716783, y: .406250983}
+    - {x: .386716783, y: .501952171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 597be0dcca6034fd9affd2c21b21839b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0007
+    boundsData:
+    - {x: 10.5000019, y: 7.99999809, z: 0}
+    - {x: 93, y: 63.9999962, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -36, y: -24, z: 0}
+    - {x: 57.0000038, y: -24, z: 0}
+    - {x: -36, y: 39.9999962, z: 0}
+    - {x: 57.0000038, y: 39.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .394533217, y: .430665046}
+    - {x: .576169908, y: .430665046}
+    - {x: .394533217, y: .493163079}
+    - {x: .576169908, y: .493163079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5cbd2b904bd03426c828804abad99ce3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0013
+    boundsData:
+    - {x: 5.49999809, y: 6, z: 0}
+    - {x: 95, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 52.9999962, y: -26, z: 0}
+    - {x: -42, y: 38, z: 0}
+    - {x: 52.9999962, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .361329108}
+    - {x: .00390820298, y: .454100579}
+    - {x: .128904298, y: .361329108}
+    - {x: .128904298, y: .454100579}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5db86e26e1b904fa590bbcde3310e74b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0031
+    boundsData:
+    - {x: 5.99999619, y: 4.50000191, z: 0}
+    - {x: 99.9999924, y: 57.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 55.9999924, y: -24, z: 0}
+    - {x: -44, y: 33.0000038, z: 0}
+    - {x: 55.9999924, y: 33.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .250001967, y: .704102516}
+    - {x: .250001967, y: .801756859}
+    - {x: .361326158, y: .704102516}
+    - {x: .361326158, y: .801756859}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 60e69817895204d3081e5aae8c3fb1aa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0024
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 38, z: 0}
+    - {x: 53.9999962, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .263672858}
+    - {x: .00390820298, y: .357420892}
+    - {x: .128904298, y: .263672858}
+    - {x: .128904298, y: .357420892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6a8c10c5843a1433f8b671f2eab8bf8d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0028
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 96, y: 61, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -42, y: 36, z: 0}
+    - {x: 53.9999962, y: 36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .261720717, y: .505860329}
+    - {x: .261720717, y: .599608421}
+    - {x: .380857408, y: .505860329}
+    - {x: .380857408, y: .599608421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6f40d6c9fbdec453595a2368ace2eed5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0038
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 96, y: 63, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .269533217, y: .308594733}
+    - {x: .269533217, y: .402342767}
+    - {x: .392576158, y: .308594733}
+    - {x: .392576158, y: .402342767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7257d6b6e27f843e79a9529bbec13d40
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0036
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 38, z: 0}
+    - {x: 53.9999962, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .136720702, y: .289063483}
+    - {x: .136720702, y: .382811517}
+    - {x: .261716783, y: .289063483}
+    - {x: .261716783, y: .382811517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 734d12c94e4434b4aaef09a57516f7ea
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0025
+    boundsData:
+    - {x: 5.99999619, y: 6.5, z: 0}
+    - {x: 94, y: 65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -41.0000038, y: -26, z: 0}
+    - {x: 52.9999962, y: -26, z: 0}
+    - {x: -41.0000038, y: 39, z: 0}
+    - {x: 52.9999962, y: 39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .642580092, y: .285157233}
+    - {x: .826169908, y: .285157233}
+    - {x: .642580092, y: .348631829}
+    - {x: .826169908, y: .348631829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 79c1bff50f1cf4ca6b4592a58bdd0c9a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0027
+    boundsData:
+    - {x: 5.99999809, y: 5.5, z: 0}
+    - {x: 96, y: 63, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -26, z: 0}
+    - {x: 53.9999962, y: -26, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .136720702, y: .386719733}
+    - {x: .136720702, y: .480467767}
+    - {x: .259763658, y: .386719733}
+    - {x: .259763658, y: .480467767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7dbb07db108c14e408316e5a147f16c8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0037
+    boundsData:
+    - {x: 5.99999619, y: 6.5, z: 0}
+    - {x: 94, y: 65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -41.0000038, y: -26, z: 0}
+    - {x: 52.9999962, y: -26, z: 0}
+    - {x: -41.0000038, y: 39, z: 0}
+    - {x: 52.9999962, y: 39, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .833986342, y: .285157233}
+    - {x: .833986342, y: .376952142}
+    - {x: .960935533, y: .285157233}
+    - {x: .960935533, y: .376952142}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7e8f4e6db093f469bbde27ce37035a5c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0006
+    boundsData:
+    - {x: 13.5000019, y: 11.0000019, z: 0}
+    - {x: 89, y: 70, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -31, y: -24, z: 0}
+    - {x: 58.0000038, y: -24, z: 0}
+    - {x: -31, y: 46.0000038, z: 0}
+    - {x: 58.0000038, y: 46.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .191407233}
+    - {x: .177732423, y: .191407233}
+    - {x: .00390820298, y: .259764642}
+    - {x: .177732423, y: .259764642}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 806c524e8271449ffb0d4dd3337150a3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0032
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 99, y: 58.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -44, y: 34.0000038, z: 0}
+    - {x: 54.9999962, y: 34.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .257814467, y: .603516579}
+    - {x: .257814467, y: .700194359}
+    - {x: .371091783, y: .603516579}
+    - {x: .371091783, y: .700194359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 819a53875490f4fd982a8a3b70c275c4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0022
+    boundsData:
+    - {x: 5.49999809, y: 6, z: 0}
+    - {x: 97, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -43, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .458008796}
+    - {x: .00390820298, y: .552733421}
+    - {x: .124998048, y: .458008796}
+    - {x: .124998048, y: .552733421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 88e633bd8587c49bb9fcd5c293957279
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0035
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .132814452, y: .484375983}
+    - {x: .132814452, y: .578124046}
+    - {x: .253904283, y: .484375983}
+    - {x: .253904283, y: .578124046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 97f686526aa9e42508b54dfecec0a812
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0008
+    boundsData:
+    - {x: 8.50000381, y: 6, z: 0}
+    - {x: 97, y: 60, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -39.9999962, y: -24, z: 0}
+    - {x: 57.0000038, y: -24, z: 0}
+    - {x: -39.9999962, y: 36, z: 0}
+    - {x: 57.0000038, y: 36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .654297829}
+    - {x: .00390820298, y: .749022484}
+    - {x: .121091798, y: .654297829}
+    - {x: .121091798, y: .749022484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: a54d21cc39a224356ac3e37f637c11f5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0039
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .556641579}
+    - {x: .00390820298, y: .650389671}
+    - {x: .124998048, y: .556641579}
+    - {x: .124998048, y: .650389671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: b272e0a42966a4021a53e750bd941f87
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0003
+    boundsData:
+    - {x: 19, y: 38, z: 0}
+    - {x: 92, y: 124, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26.9999981, y: -24, z: 0}
+    - {x: 65, y: -24, z: 0}
+    - {x: -26.9999981, y: 100, z: 0}
+    - {x: 65, y: 100, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .724611342, y: .097657226}
+    - {x: .724611342, y: .187499017}
+    - {x: .966794908, y: .097657226}
+    - {x: .966794908, y: .187499017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: b4448bb6ce309462699f60bc24b2c456
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0002
+    boundsData:
+    - {x: 13.4999943, y: 29, z: 0}
+    - {x: 109, y: 118, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -41.0000038, y: -30.0000019, z: 0}
+    - {x: 67.9999924, y: -30.0000019, z: 0}
+    - {x: -41.0000038, y: 88, z: 0}
+    - {x: 67.9999924, y: 88, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00195410149}
+    - {x: .00390820298, y: .108397461}
+    - {x: .234373048, y: .00195410149}
+    - {x: .234373048, y: .108397461}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: b7f7528ab6f6f4a4594ad3cdfd4a94c6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0044
+    boundsData:
+    - {x: 12.5000019, y: 9.49999809, z: 0}
+    - {x: 91, y: 67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -33, y: -24, z: 0}
+    - {x: 58.0000038, y: -24, z: 0}
+    - {x: -33, y: 42.9999962, z: 0}
+    - {x: 58.0000038, y: 42.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .451173842, y: .297852546}
+    - {x: .628904283, y: .297852546}
+    - {x: .451173842, y: .363280267}
+    - {x: .628904283, y: .363280267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: bd0415bbd2031495b97fbd33c409ec09
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0043
+    boundsData:
+    - {x: 9.50000191, y: 7, z: 0}
+    - {x: 95, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -38, y: -24, z: 0}
+    - {x: 57.0000038, y: -24, z: 0}
+    - {x: -38, y: 38, z: 0}
+    - {x: 57.0000038, y: 38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .583986342, y: .481446296}
+    - {x: .769529283, y: .481446296}
+    - {x: .583986342, y: .541991234}
+    - {x: .769529283, y: .541991234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: bf6b96d204b934b4dac74864cf694f38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0029
+    boundsData:
+    - {x: 5.99999809, y: 5.00000191, z: 0}
+    - {x: 98, y: 60.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 54.9999962, y: -25, z: 0}
+    - {x: -43, y: 35.0000038, z: 0}
+    - {x: 54.9999962, y: 35.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .394533217, y: .497071296}
+    - {x: .394533217, y: .592772484}
+    - {x: .511716783, y: .497071296}
+    - {x: .511716783, y: .592772484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: c590bb7a164cd46a5a08178220b6d0c3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0016
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .599611342, y: .416993171}
+    - {x: .787107408, y: .416993171}
+    - {x: .599611342, y: .477538079}
+    - {x: .787107408, y: .477538079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: c973e4ef8902d499a9e33490f694fd53
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0047
+    boundsData:
+    - {x: 15.5000038, y: 31.0000019, z: 0}
+    - {x: 109.000008, y: 118, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -39, y: -27.9999962, z: 0}
+    - {x: 70.0000076, y: -27.9999962, z: 0}
+    - {x: -39, y: 90, z: 0}
+    - {x: 70.0000076, y: 90, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .242189452, y: .00195410149}
+    - {x: .242189452, y: .108397461}
+    - {x: .472654283, y: .00195410149}
+    - {x: .472654283, y: .108397461}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: cb906b60d5558460bac1213529d06ec2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0001
+    boundsData:
+    - {x: -5.00000191, y: 20.5000019, z: 0}
+    - {x: 94, y: 123.000015, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -52, y: -41.0000038, z: 0}
+    - {x: 41.9999962, y: -41.0000038, z: 0}
+    - {x: -52, y: 82.0000076, z: 0}
+    - {x: 41.9999962, y: 82.0000076, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .724611342, y: .00195410149}
+    - {x: .724611342, y: .093749024}
+    - {x: .964841783, y: .00195410149}
+    - {x: .964841783, y: .093749024}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: e121ae61c655841fa8a89425459ca9e5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0020
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 99, y: 58.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -44, y: 34.0000038, z: 0}
+    - {x: 54.9999962, y: 34.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .128908202, y: .680665016}
+    - {x: .128908202, y: .777342796}
+    - {x: .242185548, y: .680665016}
+    - {x: .242185548, y: .777342796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: e389ce9855fcd48ca83f3f37e64fd6ed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0045
+    boundsData:
+    - {x: 15.5000029, y: 14.4999981, z: 0}
+    - {x: 85, y: 77, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -26.9999981, y: -24, z: 0}
+    - {x: 58.0000038, y: -24, z: 0}
+    - {x: -26.9999981, y: 52.9999962, z: 0}
+    - {x: 58.0000038, y: 52.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .177736327, y: .112305664}
+    - {x: .343748033, y: .112305664}
+    - {x: .177736327, y: .187499017}
+    - {x: .343748033, y: .187499017}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: eac74c4e95c1a4bc8b76052f3b96f150
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0023
+    boundsData:
+    - {x: 5.99999809, y: 6, z: 0}
+    - {x: 96, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 53.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .794923842, y: .480469733}
+    - {x: .982419908, y: .480469733}
+    - {x: .794923842, y: .541014671}
+    - {x: .982419908, y: .541014671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: ec70e1e6b518f4f7b884886026d3ffd1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0012
+    boundsData:
+    - {x: 6.49999809, y: 6, z: 0}
+    - {x: 97, y: 62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -42, y: -25, z: 0}
+    - {x: 54.9999962, y: -25, z: 0}
+    - {x: -42, y: 37, z: 0}
+    - {x: 54.9999962, y: 37, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .636720717, y: .352540046}
+    - {x: .826169908, y: .352540046}
+    - {x: .636720717, y: .413084954}
+    - {x: .826169908, y: .413084954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: f1457512c2f834e669259753491fd8ab
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0017
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 97, y: 60.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43, y: -25, z: 0}
+    - {x: 53.9999962, y: -25, z: 0}
+    - {x: -43, y: 35.0000038, z: 0}
+    - {x: 53.9999962, y: 35.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .777345717, y: .544922829}
+    - {x: .966794908, y: .544922829}
+    - {x: .777345717, y: .603514671}
+    - {x: .966794908, y: .603514671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: f6364880f690c48d3b4a07e2501c3468
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0009
+    boundsData:
+    - {x: 5.99999619, y: 4.50000191, z: 0}
+    - {x: 99.9999924, y: 57.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 55.9999924, y: -24, z: 0}
+    - {x: -44, y: 33.0000038, z: 0}
+    - {x: 55.9999924, y: 33.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .125001952, y: .781250954}
+    - {x: .125001952, y: .878905296}
+    - {x: .236326173, y: .781250954}
+    - {x: .236326173, y: .878905296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: f70fd3886de354340a8cf9f6e4ed09e0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0041
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 99, y: 58.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -44, y: 34.0000038, z: 0}
+    - {x: 54.9999962, y: 34.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .752930641}
+    - {x: .00390820298, y: .849608421}
+    - {x: .117185548, y: .752930641}
+    - {x: .117185548, y: .849608421}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: fb9a53530986c4a748647660732fd68d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0042
+    boundsData:
+    - {x: 5.99999619, y: 4.50000191, z: 0}
+    - {x: 99.9999924, y: 57.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 55.9999924, y: -24, z: 0}
+    - {x: -44, y: 33.0000038, z: 0}
+    - {x: 55.9999924, y: 33.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .125001952, y: .882813454}
+    - {x: .125001952, y: .980467796}
+    - {x: .236326173, y: .882813454}
+    - {x: .236326173, y: .980467796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: fe1d9da13033048e6b9116e29d524737
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: mosquito_suck0030
+    boundsData:
+    - {x: 5.49999809, y: 5.00000191, z: 0}
+    - {x: 99, y: 58.0000038, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 200, y: 200, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -44, y: -24, z: 0}
+    - {x: 54.9999962, y: -24, z: 0}
+    - {x: -44, y: 34.0000038, z: 0}
+    - {x: 54.9999962, y: 34.0000038, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .853516579}
+    - {x: .00390820298, y: .950194359}
+    - {x: .117185548, y: .853516579}
+    - {x: .117185548, y: .950194359}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: ffe4d36adbeb34f598083b8541c0313e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 41dbff6b329ab4a5490215165b9389bd, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 66be672ae467749988412cbb76d44e6b, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: d1d7dd0ba2e394fb9811c7d96e976c26
+  spriteCollectionName: mosq feed
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1250537908
+  dataGuid: d55cbcfae43914121a14404fe0fd1589
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

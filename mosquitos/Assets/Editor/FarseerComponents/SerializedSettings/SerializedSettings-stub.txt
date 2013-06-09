@@ -1,0 +1,1 @@
+- Stub file added to make the Asset Store and Mercurial repositories preserve the original structure.

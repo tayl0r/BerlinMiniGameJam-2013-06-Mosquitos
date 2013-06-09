@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: fatty 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: fatty_04
+    boundsData:
+    - {x: -281, y: 0, z: 0}
+    - {x: 1486, y: 2048, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2048, y: 2048, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -1024, y: -1024, z: 0}
+    - {x: 462, y: -1024, z: 0}
+    - {x: -1024, y: 1024, z: 0}
+    - {x: 462, y: 1024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .000488525373, y: .000488525373}
+    - {x: .363281012, y: .000488525373}
+    - {x: .000488525373, y: .500488043}
+    - {x: .363281012, y: .500488043}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6c8c29e1b3ea74990bfc7024aae78dd9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4a12cbd49e57346a4a55436fc134e17c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: fatty_01
+    boundsData:
+    - {x: 388.5, y: 0, z: 0}
+    - {x: 1271, y: 2048, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2048, y: 2048, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -247, y: -1024, z: 0}
+    - {x: 1024, y: -1024, z: 0}
+    - {x: -247, y: 1024, z: 0}
+    - {x: 1024, y: 1024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .364258051, y: .000488525373}
+    - {x: .674560308, y: .000488525373}
+    - {x: .364258051, y: .500488043}
+    - {x: .674560308, y: .500488043}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6c8c29e1b3ea74990bfc7024aae78dd9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 630259378705e44d189a13c0ca7d4e53
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: fatty_03
+    boundsData:
+    - {x: 393.5, y: 0, z: 0}
+    - {x: 1261, y: 2048, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2048, y: 2048, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -237, y: -1024, z: 0}
+    - {x: 1024, y: -1024, z: 0}
+    - {x: -237, y: 1024, z: 0}
+    - {x: 1024, y: 1024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .675537348, y: .000488525373}
+    - {x: .983398199, y: .000488525373}
+    - {x: .675537348, y: .500488043}
+    - {x: .983398199, y: .500488043}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6c8c29e1b3ea74990bfc7024aae78dd9, type: 2}
+    materialId: 0
+    sourceTextureGUID: 94f88099a0c5143d4b90cda69fad9467
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: fatty_02
+    boundsData:
+    - {x: -343, y: 0, z: 0}
+    - {x: 1362, y: 2048, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2048, y: 2048, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -1024, y: -1024, z: 0}
+    - {x: 338, y: -1024, z: 0}
+    - {x: -1024, y: 1024, z: 0}
+    - {x: 338, y: 1024, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .000488525373, y: .501465082}
+    - {x: .000488525373, y: .833984137}
+    - {x: .500488043, y: .501465082}
+    - {x: .500488043, y: .833984137}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6c8c29e1b3ea74990bfc7024aae78dd9, type: 2}
+    materialId: 0
+    sourceTextureGUID: c440ba5359bf34f67b67a8c065deb381
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 6c8c29e1b3ea74990bfc7024aae78dd9, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 659e8c703a3894b0badc433f0a98569f, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: aaa73e5e38a1c44cdb7b374fc0390f2a
+  spriteCollectionName: fatty 2
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1185723381
+  dataGuid: 950824b282ac0434a99b985cbd394feb
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

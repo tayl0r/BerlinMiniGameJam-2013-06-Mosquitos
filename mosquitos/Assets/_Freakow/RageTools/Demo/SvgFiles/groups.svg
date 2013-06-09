@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1" width="5cm" height="5cm">
+  <desc>Two groups, each of two rectangles</desc>
+  <g id="group1" fill="red">
+    <rect x="1" y="1" width="1" height="1"/>
+    <rect x="3" y="1" width="1" height="1"/>
+  <g id="group2" fill="blue">
+    <rect x="1" y="3" width="1" height="1"/>
+    <rect x="3" y="3" width="1" height="1"/>
+  </g>	
+  </g>
+  <!-- Show outline of canvas using 'rect' element -->
+  <rect x=".01" y=".01" width="4.98" height="4.98"
+        fill="none" stroke="blue" stroke-width=".02"/>
+</svg>

@@ -1,0 +1,1 @@
+the other materials in this directory didn't get imported correctly. they just need to get pointed to the right shader (Text Box / *) and then made to use the correct texture (FCB1024 distance map 4 - 16)

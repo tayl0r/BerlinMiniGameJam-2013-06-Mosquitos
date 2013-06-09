@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  version: 3
+  spriteAnimationIndex:
+  - assetGUID: 5070c449da3c74981bda148af74e7962
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d94d6522a746247e3a2766bd6d782a17
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex: []
+  spriteCollectionIndex:
+  - name: TropicalPachinko
+    spriteCollectionGUID: 586e0ca1a9f8cdb4c9db231a2741616c
+    spriteCollectionDataGUID: a22b26a9052f74208a1b603f32e65f41
+    spriteNames:
+    - Tropical_BonusScreen_BG
+    spriteTextureGUIDs:
+    - c1ade829330ba4b03bc826043be905fe
+    spriteTextureTimeStamps:
+    - 1363237630
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: mosquito
+    spriteCollectionGUID: 98958f8b5c5f04482932aa7eb61fd274
+    spriteCollectionDataGUID: c94c1c112d20b4067b3017dc3779fa92
+    spriteNames:
+    - mosquito_fly0003
+    - mosquito_fly0004
+    - mosquito_fly0001
+    - mosquito_fly0012
+    - mosquito_fly0011
+    - mosquito_fly0007
+    - mosquito_fly0005
+    - mosquito_fly0010
+    - mosquito_fly0002
+    - mosquito_fly0008
+    - mosquito_fly0006
+    - mosquito_fly0009
+    - mosquito_dead
+    - hand_ed
+    spriteTextureGUIDs:
+    - 3da32b4e261be4ef7a0bd197e3e83a02
+    - 45643b8fca52549d7bc3ced1541650dd
+    - 5498b70f1f9a940baa7f3679fff0a2c7
+    - 5e720555585314b8398d23dba3227877
+    - 5febf19e73616437188d248a8d8541c7
+    - 71d06a9ddb7aa4d6dbe1cb2028308742
+    - 9d36f16a2b5184fcd8db4eba90015608
+    - a1a5bc292461e4be481528f3f54aec44
+    - aecc9d4a0d7244807af21acd2dfaa3d7
+    - bc46fe20229254ed1b2af928868c7537
+    - bc78c852953444e6eae9df47f5347d1a
+    - ce8a71a9d241f49a2b5480ef68ca7995
+    - 03f614ff07dd8485c8d8592b2647e126
+    - 4fcbeb3a2b9b34a62832b70494c6fcf0
+    spriteTextureTimeStamps:
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722170
+    - 1370722449
+    - 1370724335
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: giant 1
+    spriteCollectionGUID: e34afc3063366450ea6b055e7d5daa49
+    spriteCollectionDataGUID: 7223e2e3aea1041d58c146de55782828
+    spriteNames:
+    - giant_tile3
+    - giant_tile4
+    - bitemark
+    - giant_tile1
+    - giant_tile2
+    spriteTextureGUIDs:
+    - 59f2fc03ee78d48b7a08ce5dd8c82683
+    - da43036c07bad46829580703c37f2ebb
+    - a89f702dc052347b3a81673e3624dc79
+    - ecf8b80d8acb848f39952f71479d7f8d
+    - 19bc507ef9d2c49759d1c313c9a50c6b
+    spriteTextureTimeStamps:
+    - 1370719752
+    - 1370719732
+    - 1370723394
+    - 1370722598
+    - 1370722694
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: bg
+    spriteCollectionGUID: 1eac08a5e6d5a4079bc51c3e3c60dd53
+    spriteCollectionDataGUID: c8e2618e269ec457096c404166c9b388
+    spriteNames:
+    - background
+    spriteTextureGUIDs:
+    - 40ecd17fe89744d8aaf4c02c3e93ec8b
+    spriteTextureTimeStamps:
+    - 1370711902
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: mosq feed
+    spriteCollectionGUID: d1d7dd0ba2e394fb9811c7d96e976c26
+    spriteCollectionDataGUID: d55cbcfae43914121a14404fe0fd1589
+    spriteNames:
+    - mosquito_suck0014
+    - mosquito_suck0005
+    - mosquito_suck0046
+    - mosquito_suck0019
+    - mosquito_suck0004
+    - mosquito_suck0034
+    - mosquito_suck0026
+    - mosquito_suck0048
+    - mosquito_suck0021
+    - mosquito_suck0040
+    - mosquito_suck0033
+    - mosquito_suck0010
+    - mosquito_suck0018
+    - mosquito_suck0015
+    - mosquito_suck0011
+    - mosquito_suck0007
+    - mosquito_suck0013
+    - mosquito_suck0031
+    - mosquito_suck0024
+    - mosquito_suck0028
+    - mosquito_suck0038
+    - mosquito_suck0036
+    - mosquito_suck0025
+    - mosquito_suck0027
+    - mosquito_suck0037
+    - mosquito_suck0006
+    - mosquito_suck0032
+    - mosquito_suck0022
+    - mosquito_suck0035
+    - mosquito_suck0008
+    - mosquito_suck0039
+    - mosquito_suck0003
+    - mosquito_suck0002
+    - mosquito_suck0044
+    - mosquito_suck0043
+    - mosquito_suck0029
+    - mosquito_suck0016
+    - mosquito_suck0047
+    - mosquito_suck0001
+    - mosquito_suck0020
+    - mosquito_suck0045
+    - mosquito_suck0023
+    - mosquito_suck0012
+    - mosquito_suck0017
+    - mosquito_suck0009
+    - mosquito_suck0041
+    - mosquito_suck0042
+    - mosquito_suck0030
+    spriteTextureGUIDs:
+    - 033c9c19d5eb648dca3026af23f78ce9
+    - 04c8243e75f954de0a513f5635f9a69b
+    - 0d3b9510260424d3385bad6fe28b7a5e
+    - 11bf3c36e74474b20a4b3b290feb7060
+    - 11c08f4f6815d4519afe496a709fe25a
+    - 153fe0c6b717a4d3f937298e9cc0ba6d
+    - 284a6ac7014db4085bfa0c9df890ee2f
+    - 2aa8134bd195546cfa78d81a763dcfec
+    - 398f5eeb20d8444b8a50a958b4421c8b
+    - 3cb67584ca2bd405183916dafe9d3e4c
+    - 3da3fb90ece3742ddb776a8251641f84
+    - 41a52780041524daf8ef78649b45b52b
+    - 44e0556243fa34c039d5e434aafdd0f2
+    - 50d2a3b8cd9004ccb980f149e7074b19
+    - 597be0dcca6034fd9affd2c21b21839b
+    - 5cbd2b904bd03426c828804abad99ce3
+    - 5db86e26e1b904fa590bbcde3310e74b
+    - 60e69817895204d3081e5aae8c3fb1aa
+    - 6a8c10c5843a1433f8b671f2eab8bf8d
+    - 6f40d6c9fbdec453595a2368ace2eed5
+    - 7257d6b6e27f843e79a9529bbec13d40
+    - 734d12c94e4434b4aaef09a57516f7ea
+    - 79c1bff50f1cf4ca6b4592a58bdd0c9a
+    - 7dbb07db108c14e408316e5a147f16c8
+    - 7e8f4e6db093f469bbde27ce37035a5c
+    - 806c524e8271449ffb0d4dd3337150a3
+    - 819a53875490f4fd982a8a3b70c275c4
+    - 88e633bd8587c49bb9fcd5c293957279
+    - 97f686526aa9e42508b54dfecec0a812
+    - a54d21cc39a224356ac3e37f637c11f5
+    - b272e0a42966a4021a53e750bd941f87
+    - b4448bb6ce309462699f60bc24b2c456
+    - b7f7528ab6f6f4a4594ad3cdfd4a94c6
+    - bd0415bbd2031495b97fbd33c409ec09
+    - bf6b96d204b934b4dac74864cf694f38
+    - c590bb7a164cd46a5a08178220b6d0c3
+    - c973e4ef8902d499a9e33490f694fd53
+    - cb906b60d5558460bac1213529d06ec2
+    - e121ae61c655841fa8a89425459ca9e5
+    - e389ce9855fcd48ca83f3f37e64fd6ed
+    - eac74c4e95c1a4bc8b76052f3b96f150
+    - ec70e1e6b518f4f7b884886026d3ffd1
+    - f1457512c2f834e669259753491fd8ab
+    - f6364880f690c48d3b4a07e2501c3468
+    - f70fd3886de354340a8cf9f6e4ed09e0
+    - fb9a53530986c4a748647660732fd68d
+    - fe1d9da13033048e6b9116e29d524737
+    - ffe4d36adbeb34f598083b8541c0313e
+    spriteTextureTimeStamps:
+    - 1370722126
+    - 1370722126
+    - 1370722128
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722128
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722128
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    - 1370722126
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: fatty 2
+    spriteCollectionGUID: aaa73e5e38a1c44cdb7b374fc0390f2a
+    spriteCollectionDataGUID: 950824b282ac0434a99b985cbd394feb
+    spriteNames:
+    - fatty_04
+    - fatty_01
+    - fatty_03
+    - fatty_02
+    spriteTextureGUIDs:
+    - 4a12cbd49e57346a4a55436fc134e17c
+    - 630259378705e44d189a13c0ca7d4e53
+    - 94f88099a0c5143d4b90cda69fad9467
+    - c440ba5359bf34f67b67a8c065deb381
+    spriteTextureTimeStamps:
+    - 1370724996
+    - 1370724995
+    - 1370724995
+    - 1370724995
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

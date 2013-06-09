@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="340.157px" height="113.386px" viewBox="0 0 340.157 113.386" enable-background="new 0 0 340.157 113.386"
+	 xml:space="preserve">
+<desc>Example rect01 - rectangle with sharp corners</desc>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="134.9673" y1="63.0161" x2="190.9653" y2="42.6345" gradientTransform="matrix(1 0 0 -1 4 108.3857)">
+	<stop  offset="0" style="stop-color:#FFFF00"/>
+	<stop  offset="1" style="stop-color:#FF00FF"/>
+</linearGradient>
+<rect x="113.386" y="28.347" fill="url(#SVGID_1_)" stroke="#000080" stroke-width="10" width="113.386" height="56.693"/>
+</svg>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FDB74292-9B91-E8BA-60EF-9C62BA8BC8CB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity4.0/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity4.0/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Code\mosquito\GiantArm.cs" />
+     <Compile Include="Assets\Code\mosquito\Mosquito.cs" />
+     <Compile Include="Assets\Code\mosquito\MosquitoManager.cs" />
+     <Compile Include="Assets\Code\mosquito\SkinArea.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteMask.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMap.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\Text Box\CCFont.cs" />
+     <Compile Include="Assets\Text Box\CCGradient.cs" />
+     <Compile Include="Assets\Text Box\CCStringBuilderUtility.cs" />
+     <Compile Include="Assets\Text Box\CCText.cs" />
+     <Compile Include="Assets\Text Box\CCTextModifier.cs" />
+     <Compile Include="Assets\Text Box\Demo\GUIController.cs" />
+     <Compile Include="Assets\Text Box\Modifiers\CCTextCylinderWrapper.cs" />
+     <Compile Include="Assets\Text Box\Modifiers\CCTextMarkedColorer.cs" />
+     <Compile Include="Assets\Text Box\Modifiers\CCTextRangeColorer.cs" />
+     <Compile Include="Assets\Text Box\Modifiers\CCTextTorusWrapper.cs" />
+     <Compile Include="Assets\Text Box\Modifiers\CCTextVerticalColorer.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\FarseerTriangulator.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\GuiX.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\IRageSpline.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\IRageTriangulator.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\RageCamera.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\RageCurve.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\RageSpline.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\RageSplineStyle.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Code\RageTriangulator.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\RageSpline API Examples\AdvancedShake\AdvancedShake.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\RageSpline API Examples\Shake\Shake.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\RageSpline API Examples\SimpleRuntimeEditor\SimpleRuntimeEditor.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\Template - Physics Game\ExplotionAtMouseclick.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\Template - Top-down Game\Drifter.cs" />
+     <Compile Include="Assets\_Freakow\RageSpline\Demo\Template - Top-down Game\FollowTheMouse.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageCameraTools.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageCanvasAlign.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageConstraint.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageEdgetune.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageGroup.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageHandle.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageLayer.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RagePivotools.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageSvgIn.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\RageSvgInStyler.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageEdgetune\RageEdgetuneData.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageGroup\RageGroupElement.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageGroup\RageGroupGradientData.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageGroup\RageGroupPhysicsData.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageGroup\RageGroupPointCache.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageGroup\RageGroupStyleData.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgGradient.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgInHoles.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgObject.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgPathElement.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgStyle.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageSvgIn\RageSvgStyleEntry.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Data\RageXml\RageXmlParser.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extensions\ColorExtension.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extensions\RageToolsExtension.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extensions\StringExtension.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extensions\UnityExtension.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extras\PlayAnimOnEnable.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extras\RageGroupFader.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Extras\SetTextMeshColor.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Macros\MacrosPivotools.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Macros\MacrosRageConstraint.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Macros\MacrosRageGroup.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Macros\MacrosRageLayer.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_Macros\MacrosRigidBody.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\ISpline.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\Spline.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\_RageSpline\RageSplineAdapter.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\_RageSpline\RageSplineExtension.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\_RageSpline\RageSplineGradientAdapter.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\_RageSpline\RageSplineOutlineAdapter.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Code\_SplineInterface\_RageSpline\RageSplinePointAdapter.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\Perspective\Orbiter.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\_Code\AnimationPlayer.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\_Code\DragObject.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\_Code\FsDeflect.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\_Code\FsRespawner.cs" />
+     <Compile Include="Assets\_Freakow\RageTools\Demo\_Code\SmoothFollow2D.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageButton.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageGroupPro.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageIk.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageIkJointLimiter.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageMagnet.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageSprite.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\RageText.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageButton\RageButtonData.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageIk\RageIkChain.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageIk\RageIkHandle.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageIk\RageIkSolver.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageMagnet\RageMagnetColliders.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageMagnet\RageMagnetMath.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageMagnet\RageMagnetPoint.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageMagnet\RageMagnetPointData.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageSprite\RageSplinePreviewData.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageSprite\RageSplinePreviewPointData.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Data\RageSprite\RageSpritePreviewData.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Extensions\IRageButton.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Extensions\RageToolsProExtensions.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Macros\MacrosRageFont.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Code\_Macros\MacrosRageMagnet.cs" />
+     <Compile Include="Assets\_Freakow\RageToolsPro\Demo\Waving-Water\WavingWaterForce.cs" />
+     <Compile Include="Assets\_ThirdParty\HOTween\Hotween Extensions\HOTweenManager\Core\ABSHOTweenEditorElement.cs" />
+     <Compile Include="Assets\_ThirdParty\HOTween\Hotween Extensions\HOTweenManager\HOTweenComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\HOTween\Hotween Extensions\HOTweenManager\HOTweenManager.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FSCollisionGroup.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FSEnums.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FSJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerDebugViewUnity\FarseerDebugViewUnity.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Collision.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Distance.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\DynamicTree.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\DynamicTreeBroadPhase.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\IBroadPhase.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\QuadTree.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\QuadTreeBroadPhase.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Shapes\ChainShape.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Shapes\CircleShape.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Shapes\EdgeShape.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Shapes\PolygonShape.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\Shapes\Shape.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Collision\TimeOfImpact.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\ConvexHull\ChainHull.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\ConvexHull\GiftWrap.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\ConvexHull\Melkman.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Curve.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\CurveKey.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\CurveKeyCollection.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\BayazitDecomposer.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\ITriangulatable.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Orientation.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Polygon\Polygon.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Sets\PointSet.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\TriangulationConstraint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\TriangulationContext.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\TriangulationMode.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\TriangulationPoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\TriangulationUtil.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Util\FixedArray3.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Util\FixedBitArray3.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Util\PointGenerator.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDT\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\CDTDecomposer.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\EarclipDecomposer.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\FlipcodeDecomposer.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Decomposition\SeidelDecomposer.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\FMatrix.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\FVector2.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\FVector3.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\FixedArray.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\HashSet.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\LineTools.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Math.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\MathHelper.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Path.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PathManager.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PhysicsLogic\FSExplosion.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PhysicsLogic\PhysicsLogic.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PolygonManipulation\CuttingTools.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PolygonManipulation\SimplifyTools.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PolygonManipulation\YuPengClipper.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\PolygonTools.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Serialization.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\TextureTools\MarchingSquares.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\TextureTools\TextureConverter.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Common\Vertices.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\AbstractForceController.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\BuoyancyController.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\Controller.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\GravityController.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\SimpleWindForce.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Controllers\VelocityLimitController.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\DebugView.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Contacts\Contact.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Contacts\ContactSolver.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSBody.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSBreakableBody.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSContactManager.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSFixture.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSIsland.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSTimeStep.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSWorld.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\FSWorldCallbacks.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSAngleJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSDistanceJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSFixedAngleJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSFixedMouseJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSFrictionJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSGearJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSPrismaticJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSPulleyJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSRevoluteJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSRopeJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSSliderJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSWeldJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FSWheelJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Dynamics\Joints\FarseerJoint.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\FSSettings.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Factories\BodyFactory.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Factories\FixtureFactory.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Factories\JointFactory.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerPhysics\Factories\LinkFactory.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Temp\TestCoreCollisionEvents.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\BridgeTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\BuoyancyTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\CCDTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\RagdollTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\Test.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\Testbed\TheoJansenTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSAngleJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSBodyComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSBuoyancyComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSConcaveShapeComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSDebugDrawComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSDistanceJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSHelper.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSMouseTest.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSPrismaticJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSPulleyJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSRevoluteJointComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSShapeComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSTestComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSUserDataComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\FSWorldComponent.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Plugins\GizmosHelper.cs" />
+     <Compile Include="Assets\_ThirdParty\RageFarseer\Tutorials\Part 4\CollisionEventsDone\TestCollisionEventsDoneCp.cs" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineDouble.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Gradient.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTexturedDouble.shader" />
+     <None Include="Assets\Code\Pachinko\empty.txt" />
+     <None Include="Assets\Text Box\readme.txt" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTextured.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\Assets\Sprite Collection Data\Pachinko\Fairy\empty.txt" />
+     <None Include="Assets\Text Box\Shaders\CC Text CG.cginc" />
+     <None Include="Assets\Assets\Sprite Collection Data\Pachinko\Egypt\empty.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Editor\FarseerComponents\SerializedSettings\SerializedSettings-stub.txt" />
+     <None Include="Assets\Text Box\Demo\Fonts\futura lt condensed bold 1024\readme.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\_Freakow\RageTools\readme.txt" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTexturedAlphaShader.shader" />
+     <None Include="Assets\_ThirdParty\HOTween\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\_Freakow\RageSpline\readme.txt" />
+     <None Include="Assets\Text Box\Shaders\CC Text Smooth Shadow.shader" />
+     <None Include="Assets\Text Box\Demo\Fonts\futura lt condensed bold 1024\FCB1024.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColorScrollingMask.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Smooth Outline.shader" />
+     <None Include="Assets\_ThirdParty\HOTween\HOTween_License.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\BlendVertexColorFx.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\BlendVertexColor.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTexturedAA.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSpline.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Assets\Art\Pachinko\Global\empty.txt" />
+     <None Include="Assets\_Freakow\BooInspector\readme.txt" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineMultitextured.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Smooth Bold.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Smooth.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTexturedAlphaShader.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Alpha Test.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Smooth Fade.shader" />
+     <None Include="Assets\_ThirdParty\HOTween\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DBasicFill.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Plugins\FarseerComponents\Base\FarseerDebugViewUnity\FDView.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTexturedAlphaTP.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Tests\Shaders\Color.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DAA.shader" />
+     <None Include="Assets\_Freakow\RageToolsPro\readme-pro.txt" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RS3DTextured.shader" />
+     <None Include="Assets\Text Box\Shaders\CC Text Alpha Blend.shader" />
+     <None Include="Assets\Assets\Sprite Collection Data\Pachinko\Global\empty.txt" />
+     <None Include="Assets\Assets\Sprite Collection Data\Pachinko\WildWest\empty.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\_Freakow\RageSpline\Code\RageSplineTextureAlphaTP.shader" />
+     <None Include="Assets\_ThirdParty\RageFarseer\Tests\Shaders\Transparent Vertex Colored.shader" />
+ <Reference Include="Assets\_ThirdParty\HOTween\HOTween">
+ <HintPath>Assets\_ThirdParty\HOTween\HOTween.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{80C8A712-A4E3-92FF-7727-823A2117D2CD}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

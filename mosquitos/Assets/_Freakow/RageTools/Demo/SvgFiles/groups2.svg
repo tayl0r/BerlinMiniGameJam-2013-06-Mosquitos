@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1" width="5cm" height="5cm">
+  <g id="group1" fill="red">
+    <rect x="1" y="1" width="1" height="1"/>
+    <rect x="3" y="1" width="1" height="1" fill="green"/>
+    <rect x="5" y="1" width="1" height="1" fill="purple"/>
+  </g>
+</svg>

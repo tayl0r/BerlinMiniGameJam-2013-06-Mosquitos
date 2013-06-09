@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: waving-water
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -9.82690239, y: 5.33816433, z: 0}
+        inSlope: {x: 0, y: -1.98562539, z: 0}
+        outSlope: {x: 0, y: -1.98562539, z: 0}
+        tangentMode: -559038737
+      - time: 1
+        value: {x: -9.82690239, y: 3.75284576, z: 0}
+        inSlope: {x: 0, y: -2.38418579e-07, z: 0}
+        outSlope: {x: 0, y: -2.38418579e-07, z: 0}
+        tangentMode: -559038737
+      - time: 2
+        value: {x: -9.82690239, y: 5.33816385, z: 0}
+        inSlope: {x: 0, y: 2.48072171, z: 0}
+        outSlope: {x: 0, y: 2.48072171, z: 0}
+        tangentMode: 0
+      - time: 3
+        value: {x: -9.82690239, y: 6.88454628, z: 0}
+        inSlope: {x: 0, y: 2.38418579e-07, z: 0}
+        outSlope: {x: 0, y: 2.38418579e-07, z: 0}
+        tangentMode: -559038737
+      - time: 4
+        value: {x: -9.82690239, y: 5.33816433, z: 0}
+        inSlope: {x: 0, y: -2.44004202, z: 0}
+        outSlope: {x: 0, y: -2.44004202, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ControllerMagnet-Group1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -9.82690239, y: 5.33816433, z: 0}
+        inSlope: {x: 0, y: 2.00612092, z: 0}
+        outSlope: {x: 0, y: 2.00612092, z: 0}
+        tangentMode: -559038737
+      - time: 1
+        value: {x: -9.82690239, y: 6.56475782, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: 2
+        value: {x: -9.82690239, y: 5.33816433, z: 0}
+        inSlope: {x: 0, y: -1.94503117, z: 0}
+        outSlope: {x: 0, y: -1.94503117, z: 0}
+        tangentMode: -559038737
+      - time: 3
+        value: {x: -9.82690239, y: 3.95825171, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 4
+        value: {x: -9.82690239, y: 5.33816433, z: 0}
+        inSlope: {x: 0, y: 1.94503117, z: 0}
+        outSlope: {x: 0, y: 1.94503117, z: 0}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ControllerMagnet-Group2
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+    m_KeepAdditionalBonesAnimation: 1
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 3
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ControllerMagnet-Group1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.33816433
+        inSlope: -1.98562539
+        outSlope: -1.98562539
+        tangentMode: 0
+      - time: 1
+        value: 3.75284576
+        inSlope: -2.38418579e-07
+        outSlope: -2.38418579e-07
+        tangentMode: 10
+      - time: 2
+        value: 5.33816385
+        inSlope: 2.48072171
+        outSlope: 2.48072171
+        tangentMode: 0
+      - time: 3
+        value: 6.88454628
+        inSlope: 2.38418579e-07
+        outSlope: 2.38418579e-07
+        tangentMode: 0
+      - time: 4
+        value: 5.33816433
+        inSlope: -2.44004202
+        outSlope: -2.44004202
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ControllerMagnet-Group1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ControllerMagnet-Group1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 3
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 4
+        value: -9.82690239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ControllerMagnet-Group2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.33816433
+        inSlope: 2.00612092
+        outSlope: 2.00612092
+        tangentMode: 0
+      - time: 1
+        value: 6.56475782
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 5.33816433
+        inSlope: -1.94503117
+        outSlope: -1.94503117
+        tangentMode: 0
+      - time: 3
+        value: 3.95825171
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 4
+        value: 5.33816433
+        inSlope: 1.94503117
+        outSlope: 1.94503117
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ControllerMagnet-Group2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 4
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ControllerMagnet-Group2
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
